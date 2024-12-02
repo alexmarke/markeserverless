@@ -1,247 +1,247 @@
-[2024-11-30 21:37:52] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
-[2024-11-30 21:37:52] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
-[2024-11-30 21:37:52] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
-[2024-11-30 21:37:53] [class-ss-archive-creation-job.php:136] Current task: setup
-[2024-11-30 21:37:53] [class-ss-archive-creation-job.php:153] Performing task: setup
-[2024-11-30 21:37:53] [class-ss-task.php:44] Status message: [setup] Setting up
-[2024-11-30 21:37:53] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733002672\
-[2024-11-30 21:37:53] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/markeserverless/
-[2024-11-30 21:37:53] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
-[2024-11-30 21:37:53] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-11-30 21:37:53] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-11-30 21:37:53] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
-[2024-11-30 21:37:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/
-[2024-11-30 21:37:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
-[2024-11-30 21:37:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-30 21:37:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674b85b19436c-PYaVq0.tmp
-[2024-11-30 21:37:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/?simply_static_page=120
-[2024-11-30 21:37:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/?simply_static_page=120
-[2024-11-30 21:37:54] [class-ss-url-fetcher.php:103] Filesize: 78822 bytes
-[2024-11-30 21:37:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-11-30 21:37:54] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
-[2024-11-30 21:37:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674b85b19436c-PYaVq0.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733002672/index.html
-[2024-11-30 21:37:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-30 21:37:56] [class-ss-fetch-urls-task.php:159] Adding 16 URLs to the queue
-[2024-11-30 21:37:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-30 21:37:57] [class-ss-page.php:119] Checking Content Identical:dbaa9392de5f3d1f5016b08749903be643ce975d===. Value: FALSE
-[2024-11-30 21:37:57] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
-[2024-11-30 21:37:57] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-11-30 21:37:57] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-11-30 21:37:57] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:69] Total pages: 17; Pages remaining: 16
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless
-[2024-11-30 21:37:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 17
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674b85b520ed4-JV2m7S.tmp
-[2024-11-30 21:37:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless?simply_static_page=121
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless?simply_static_page=121
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:103] Filesize: 363 bytes
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/markeserverless/
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-11-30 21:37:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 17
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674b85b5296a0-VB5BO8.tmp
-[2024-11-30 21:37:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=122
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=122
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674b85b5296a0-VB5BO8.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733002672/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-30 21:37:57] [class-ss-page.php:119] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
-[2024-11-30 21:37:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 17
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674b85b53f476-EZGFmX.tmp
-[2024-11-30 21:37:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=123
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=123
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674b85b53f476-EZGFmX.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733002672/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-30 21:37:57] [class-ss-page.php:119] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: FALSE
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/windows.webp
-[2024-11-30 21:37:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 17
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674b85b54eed1-WMgywh.tmp
-[2024-11-30 21:37:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=124
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=124
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674b85b54eed1-WMgywh.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733002672/wp-content/themes/twentytwentyfour/assets/images/windows.webp
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-30 21:37:57] [class-ss-page.php:119] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: FALSE
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-includes/blocks/navigation/view.min.js
-[2024-11-30 21:37:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 17
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674b85b567004-UXQxuL.tmp
-[2024-11-30 21:37:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-includes/blocks/navigation/view.min.js?simply_static_page=125
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-includes/blocks/navigation/view.min.js?simply_static_page=125
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674b85b567004-UXQxuL.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733002672/wp-includes/blocks/navigation/view.min.js
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-30 21:37:57] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/index.php/feed/
-[2024-11-30 21:37:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 17
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/markeserverless/index.php/feed/
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/index.php/comments/feed/
-[2024-11-30 21:37:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 17
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/markeserverless/index.php/comments/feed/
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-includes/blocks/navigation/style.min.css
-[2024-11-30 21:37:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 17
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674b85b5ba085-79lx8S.tmp
-[2024-11-30 21:37:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-includes/blocks/navigation/style.min.css?simply_static_page=128
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-includes/blocks/navigation/style.min.css?simply_static_page=128
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
-[2024-11-30 21:37:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674b85b5ba085-79lx8S.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733002672/wp-includes/blocks/navigation/style.min.css
-[2024-11-30 21:37:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-30 21:37:58] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-includes/blocks/image/style.min.css
-[2024-11-30 21:37:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 17
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674b85b622b45-RzgsOM.tmp
-[2024-11-30 21:37:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-includes/blocks/image/style.min.css?simply_static_page=129
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-includes/blocks/image/style.min.css?simply_static_page=129
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:103] Filesize: 6358 bytes
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674b85b622b45-RzgsOM.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733002672/wp-includes/blocks/image/style.min.css
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-30 21:37:58] [class-ss-page.php:119] Checking Content Identical:54a1fef5278908a5bbd901dea250139c6d992b6f===. Value: FALSE
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/index.php/wp-json/
-[2024-11-30 21:37:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 17
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/markeserverless/index.php/wp-json/
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/xmlrpc.php
-[2024-11-30 21:37:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 17
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/markeserverless/xmlrpc.php
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-includes/js/dist/interactivity.min.js
-[2024-11-30 21:37:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 17
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674b85b681534-I1IaPq.tmp
-[2024-11-30 21:37:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-includes/js/dist/interactivity.min.js?simply_static_page=132
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-includes/js/dist/interactivity.min.js?simply_static_page=132
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:103] Filesize: 36686 bytes
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674b85b681534-I1IaPq.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733002672/wp-includes/js/dist/interactivity.min.js
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-30 21:37:58] [class-ss-page.php:119] Checking Content Identical:39f2fd1115fdb171ea318c2ca240c7fe53df79b4===. Value: FALSE
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-11-30 21:37:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 17
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674b85b6a1d8a-jyUfnY.tmp
-[2024-11-30 21:37:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=133
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=133
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674b85b6a1d8a-jyUfnY.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733002672/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-30 21:37:58] [class-ss-page.php:119] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-11-30 21:37:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 17
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674b85b6be3cc-2Ck4PQ.tmp
-[2024-11-30 21:37:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=134
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=134
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674b85b6be3cc-2Ck4PQ.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733002672/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-30 21:37:58] [class-ss-page.php:119] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-11-30 21:37:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 17
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674b85b6ded13-akOgiT.tmp
-[2024-11-30 21:37:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=135
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=135
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-11-30 21:37:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674b85b6ded13-akOgiT.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733002672/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-30 21:37:58] [class-ss-page.php:119] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
-[2024-11-30 21:37:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-11-30 21:37:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 17
-[2024-11-30 21:37:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-30 21:37:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674b85b70069a-khih5b.tmp
-[2024-11-30 21:37:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=136
-[2024-11-30 21:37:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=136
-[2024-11-30 21:37:59] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
-[2024-11-30 21:37:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-11-30 21:37:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-11-30 21:37:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674b85b70069a-khih5b.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733002672/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-11-30 21:37:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-30 21:37:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-30 21:37:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-30 21:37:59] [class-ss-page.php:119] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
-[2024-11-30 21:37:59] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 17 pages/files
-[2024-11-30 21:37:59] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-11-30 21:37:59] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-11-30 21:37:59] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-11-30 21:37:59] [class-ss-fetch-urls-task.php:69] Total pages: 17; Pages remaining: 0
-[2024-11-30 21:37:59] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 17 of 17 pages/files
-[2024-11-30 21:37:59] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
-[2024-11-30 21:37:59] [class-ss-archive-creation-job.php:136] Current task: generate_404
-[2024-11-30 21:37:59] [class-ss-archive-creation-job.php:153] Performing task: generate_404
-[2024-11-30 21:37:59] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
-[2024-11-30 21:37:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674b85b723957-Uu6wcv.tmp
-[2024-11-30 21:37:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/1733002680?simply_static_page=0
-[2024-11-30 21:37:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/1733002680?simply_static_page=0
-[2024-11-30 21:37:59] [class-ss-url-fetcher.php:103] Filesize: 56180 bytes
-[2024-11-30 21:37:59] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-11-30 21:37:59] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
-[2024-11-30 21:37:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674b85b723957-Uu6wcv.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733002672\404/index.html
-[2024-11-30 21:38:00] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
-[2024-11-30 21:38:01] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
-[2024-11-30 21:38:02] [class-ss-page.php:119] Checking Content Identical:a86662580b3fc1abafaa248b32bbd22948e09e91===. Value: FALSE
-[2024-11-30 21:38:02] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
-[2024-11-30 21:38:02] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
-[2024-11-30 21:38:02] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
-[2024-11-30 21:38:02] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
-[2024-11-30 21:38:02] [class-ss-create-zip-archive.php:78] Fetching list of files to include in zip
-[2024-11-30 21:38:02] [class-ss-create-zip-archive.php:87] Creating zip archive
-[2024-11-30 21:38:02] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/markeserverless/wp-content/uploads/simply-static/temp-files/simply-static-1-1733002672.zip">Click here to download</a>
-[2024-11-30 21:38:02] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
-[2024-11-30 21:38:02] [class-ss-archive-creation-job.php:136] Current task: wrapup
-[2024-11-30 21:38:02] [class-ss-archive-creation-job.php:153] Performing task: wrapup
-[2024-11-30 21:38:02] [class-ss-wrapup-task.php:22] Deleting temporary files
-[2024-11-30 21:38:02] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
-[2024-11-30 21:38:02] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
-[2024-11-30 21:38:02] [class-ss-archive-creation-job.php:197] Completing the job
-[2024-11-30 21:38:02] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:10
+[2024-12-02 01:31:36] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-12-02 01:31:36] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-12-02 01:31:36] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-12-02 01:31:37] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-12-02 01:31:37] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-12-02 01:31:37] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-12-02 01:31:37] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733103096\
+[2024-12-02 01:31:37] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/markeserverless/
+[2024-12-02 01:31:37] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-12-02 01:31:37] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-12-02 01:31:37] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-12-02 01:31:37] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-12-02 01:31:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/
+[2024-12-02 01:31:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-12-02 01:31:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-02 01:31:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674d0df9ac224-fjYuCr.tmp
+[2024-12-02 01:31:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/?simply_static_page=188
+[2024-12-02 01:31:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/?simply_static_page=188
+[2024-12-02 01:31:40] [class-ss-url-fetcher.php:103] Filesize: 79487 bytes
+[2024-12-02 01:31:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-12-02 01:31:40] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-12-02 01:31:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674d0df9ac224-fjYuCr.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733103096/index.html
+[2024-12-02 01:31:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-02 01:31:49] [class-ss-fetch-urls-task.php:159] Adding 16 URLs to the queue
+[2024-12-02 01:31:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-02 01:31:50] [class-ss-page.php:119] Checking Content Identical:ea9e1f88823eef2646e73cbfe2a60d1de9868af9===. Value: FALSE
+[2024-12-02 01:31:50] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-12-02 01:31:50] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-12-02 01:31:50] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-12-02 01:31:50] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:69] Total pages: 17; Pages remaining: 16
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless
+[2024-12-02 01:31:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 17
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674d0e0644cd8-ZRJ48Z.tmp
+[2024-12-02 01:31:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless?simply_static_page=189
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless?simply_static_page=189
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:103] Filesize: 363 bytes
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/markeserverless/
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-12-02 01:31:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 17
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674d0e064d513-a5Bq9B.tmp
+[2024-12-02 01:31:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=190
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=190
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674d0e064d513-a5Bq9B.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733103096/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-02 01:31:50] [class-ss-page.php:119] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-12-02 01:31:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 17
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674d0e066719b-NrynDY.tmp
+[2024-12-02 01:31:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=191
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=191
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674d0e066719b-NrynDY.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733103096/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-02 01:31:50] [class-ss-page.php:119] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: FALSE
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-12-02 01:31:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 17
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674d0e067fe03-m3PzII.tmp
+[2024-12-02 01:31:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=192
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=192
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674d0e067fe03-m3PzII.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733103096/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-02 01:31:50] [class-ss-page.php:119] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: FALSE
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-includes/blocks/navigation/view.min.js
+[2024-12-02 01:31:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 17
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674d0e0698499-BT3E1W.tmp
+[2024-12-02 01:31:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-includes/blocks/navigation/view.min.js?simply_static_page=193
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-includes/blocks/navigation/view.min.js?simply_static_page=193
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674d0e0698499-BT3E1W.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733103096/wp-includes/blocks/navigation/view.min.js
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-02 01:31:50] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/index.php/feed/
+[2024-12-02 01:31:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 17
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/markeserverless/index.php/feed/
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/index.php/comments/feed/
+[2024-12-02 01:31:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 17
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/markeserverless/index.php/comments/feed/
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-includes/blocks/navigation/style.min.css
+[2024-12-02 01:31:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 17
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674d0e06cc55f-JDBYEN.tmp
+[2024-12-02 01:31:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-includes/blocks/navigation/style.min.css?simply_static_page=196
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-includes/blocks/navigation/style.min.css?simply_static_page=196
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-12-02 01:31:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674d0e06cc55f-JDBYEN.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733103096/wp-includes/blocks/navigation/style.min.css
+[2024-12-02 01:31:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-02 01:31:51] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-02 01:31:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-02 01:31:51] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2024-12-02 01:31:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-includes/blocks/image/style.min.css
+[2024-12-02 01:31:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 17
+[2024-12-02 01:31:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-02 01:31:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674d0e070b7c6-lQnbaH.tmp
+[2024-12-02 01:31:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-includes/blocks/image/style.min.css?simply_static_page=197
+[2024-12-02 01:31:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-includes/blocks/image/style.min.css?simply_static_page=197
+[2024-12-02 01:31:51] [class-ss-url-fetcher.php:103] Filesize: 6358 bytes
+[2024-12-02 01:31:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-02 01:31:51] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-12-02 01:31:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674d0e070b7c6-lQnbaH.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733103096/wp-includes/blocks/image/style.min.css
+[2024-12-02 01:31:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-02 01:31:51] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-02 01:31:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-02 01:31:51] [class-ss-page.php:119] Checking Content Identical:54a1fef5278908a5bbd901dea250139c6d992b6f===. Value: FALSE
+[2024-12-02 01:31:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/index.php/wp-json/
+[2024-12-02 01:31:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 17
+[2024-12-02 01:31:51] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/markeserverless/index.php/wp-json/
+[2024-12-02 01:31:51] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-02 01:31:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/xmlrpc.php
+[2024-12-02 01:31:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 17
+[2024-12-02 01:31:51] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/markeserverless/xmlrpc.php
+[2024-12-02 01:31:51] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-02 01:31:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-includes/js/dist/interactivity.min.js
+[2024-12-02 01:31:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 17
+[2024-12-02 01:31:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-02 01:31:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674d0e07268dd-sH2kuf.tmp
+[2024-12-02 01:31:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-includes/js/dist/interactivity.min.js?simply_static_page=200
+[2024-12-02 01:31:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-includes/js/dist/interactivity.min.js?simply_static_page=200
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:103] Filesize: 36687 bytes
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674d0e07268dd-sH2kuf.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733103096/wp-includes/js/dist/interactivity.min.js
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-02 01:31:53] [class-ss-page.php:119] Checking Content Identical:22d364ee6e6e088fd118db6eff7f698bda3ea315===. Value: FALSE
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-12-02 01:31:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 17
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674d0e0973830-2JhjMj.tmp
+[2024-12-02 01:31:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=201
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=201
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674d0e0973830-2JhjMj.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733103096/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-02 01:31:53] [class-ss-page.php:119] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-12-02 01:31:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 17
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674d0e098c8fb-g16v8x.tmp
+[2024-12-02 01:31:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=202
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=202
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674d0e098c8fb-g16v8x.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733103096/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-02 01:31:53] [class-ss-page.php:119] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-12-02 01:31:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 17
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674d0e09a89a2-5NZujU.tmp
+[2024-12-02 01:31:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=203
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=203
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674d0e09a89a2-5NZujU.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733103096/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-02 01:31:53] [class-ss-page.php:119] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-12-02 01:31:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 17
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674d0e09c924a-GodxOr.tmp
+[2024-12-02 01:31:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=204
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=204
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-12-02 01:31:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674d0e09c924a-GodxOr.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733103096/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-02 01:31:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-02 01:31:53] [class-ss-page.php:119] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
+[2024-12-02 01:31:54] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 17 pages/files
+[2024-12-02 01:31:54] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-12-02 01:31:54] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-12-02 01:31:54] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-12-02 01:31:54] [class-ss-fetch-urls-task.php:69] Total pages: 17; Pages remaining: 0
+[2024-12-02 01:31:54] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 17 of 17 pages/files
+[2024-12-02 01:31:54] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-12-02 01:31:54] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-12-02 01:31:54] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-12-02 01:31:54] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-12-02 01:31:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\19a19\AppData\Local\Temp/674d0e0a0e16a-q817SV.tmp
+[2024-12-02 01:31:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/markeserverless/1733103115?simply_static_page=0
+[2024-12-02 01:31:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/markeserverless/1733103115?simply_static_page=0
+[2024-12-02 01:31:56] [class-ss-url-fetcher.php:103] Filesize: 56473 bytes
+[2024-12-02 01:31:56] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-12-02 01:31:56] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-12-02 01:31:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\19a19\AppData\Local\Temp/674d0e0a0e16a-q817SV.tmp to C:\xampp\htdocs\markeserverless/wp-content/uploads\simply-static\temp-files/simply-static-1-1733103096\404/index.html
+[2024-12-02 01:31:56] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-12-02 01:31:59] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-12-02 01:31:59] [class-ss-page.php:119] Checking Content Identical:0801b2c2289a7d7cec225ed3789c7b9c3e0d3f69===. Value: FALSE
+[2024-12-02 01:31:59] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-12-02 01:31:59] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-12-02 01:32:00] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-12-02 01:32:00] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-12-02 01:32:00] [class-ss-create-zip-archive.php:78] Fetching list of files to include in zip
+[2024-12-02 01:32:00] [class-ss-create-zip-archive.php:87] Creating zip archive
+[2024-12-02 01:32:00] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/markeserverless/wp-content/uploads/simply-static/temp-files/simply-static-1-1733103096.zip">Click here to download</a>
+[2024-12-02 01:32:00] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-12-02 01:32:00] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-12-02 01:32:00] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-12-02 01:32:00] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-12-02 01:32:00] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-12-02 01:32:00] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-12-02 01:32:00] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-12-02 01:32:00] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:24
